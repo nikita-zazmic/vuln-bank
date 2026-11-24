@@ -5,13 +5,6 @@ body.auth-page {
   display: flex; min-height: 100vh; background: var(--bg);
 }
 
-/* ---- Brand Panel ---- */
-.auth-brand {
-  display: flex; flex-direction: column; justify-content: center; align-items: center;
-  width: 46%; min-height: 100vh; padding: 3rem;
-  background: var(--navy-900); color: #fff;
-  position: relative; overflow: hidden;
-}
 .auth-brand::before {
   content: ''; position: absolute; inset: 0;
   background:

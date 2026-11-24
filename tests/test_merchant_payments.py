@@ -3,7 +3,7 @@ import sys
 import types
 import unittest
 from datetime import datetime
-from unittest.mock import patch
+from unittest.mock import patch   
 
 
 class MerchantPaymentApiTests(unittest.TestCase):

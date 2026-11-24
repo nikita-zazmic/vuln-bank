@@ -20,7 +20,6 @@ query MyTransactionSummary($limit: Int!) {
       amount
       transactionType
       timestamp
-      description
     }
   }
 }

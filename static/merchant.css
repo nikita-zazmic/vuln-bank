@@ -1,16 +1,3 @@
-.merchant-dashboard-page .merchant-avatar {
-  width: 36px;
-  height: 36px;
-  border-radius: var(--r-full);
-  background: var(--brand);
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: var(--font-display);
-  font-weight: 800;
-  flex-shrink: 0;
-}
 
 .merchant-stats {
   display: grid;

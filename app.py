@@ -8,7 +8,7 @@ import os
 from dotenv import load_dotenv
 from auth import generate_token, token_required, verify_token, init_auth_routes
 import auth
-from werkzeug.utils import secure_filename 
+from werkzeug.utils import secure_filename    
 from flask_swagger_ui import get_swaggerui_blueprint
 from flask_cors import CORS
 from database import (

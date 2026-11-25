@@ -12,7 +12,7 @@ class TransactionRecordType(graphene.ObjectType):
     to_account = graphene.String()
     to_username = graphene.String()
     amount = graphene.Float()
-    timestamp = graphene.String()
+    timestamp = graphene.String()  
     transaction_type = graphene.String()
     description = graphene.String()
 

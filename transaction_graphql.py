@@ -6,7 +6,7 @@ from database import execute_query
 
 
 class TransactionRecordType(graphene.ObjectType):
-    id = graphene.Int()
+    id = graphene.Int()  
     from_account = graphene.String()
     from_username = graphene.String()
     to_account = graphene.String()

@@ -4,7 +4,7 @@ ENV PYTHONUNBUFFERED=1
 
 # Install PostgreSQL client
 RUN apt-get update && apt-get install -y \
-    postgresql-client \
+    postgresql-client \   
     && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app

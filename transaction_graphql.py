@@ -3,7 +3,7 @@ import math
 from graphql import GraphQLError
 
 from database import execute_query
-
+   
 
 class TransactionRecordType(graphene.ObjectType):
     id = graphene.Int()

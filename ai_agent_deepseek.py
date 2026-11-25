@@ -1,4 +1,4 @@
-import os
+  import os
 import json
 import requests
 from database import execute_query
@@ -13,7 +13,7 @@ class VulnerableAIAgent:
     VULNERABILITIES IMPLEMENTED:
     - Prompt Injection (CWE-77) - Real LLM vulnerability
     - Information Disclosure (CWE-200) - Database access without authorization
-    - Broken Authorization (CWE-862) - No proper access controls
+    - Broken Authorization (CWE-862) - No proper access controls   
     - Data Exposure through AI (CWE-209) - Sensitive data in prompts
     - Insufficient Input Validation (CWE-20) - Direct user input to LLM
     """

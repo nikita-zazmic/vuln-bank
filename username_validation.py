@@ -5,7 +5,7 @@ USERNAME_MIN_LENGTH = 3
 USERNAME_MAX_LENGTH = 30
 USERNAME_PATTERN = re.compile(r'^[A-Za-z0-9_-]+$')
 
-
+  
 def username_validation_error(username):
     if not isinstance(username, str):
         return 'Username is required'

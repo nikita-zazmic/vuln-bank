@@ -2,7 +2,7 @@ name: Deploy VulnBank
 
 on:
   push:
-    branches:
+    branches:   
       - main
   workflow_dispatch:
 
